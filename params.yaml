@@ -4,4 +4,4 @@ chunking:
 retrieval:
   top_k: 2
 openai:
-  model_name: gpt-4o-mini
+  model: gpt-4o-mini

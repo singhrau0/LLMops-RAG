@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beginner LangChain RAG</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main>
+    <h1>Beginner LangChain RAG Pipeline</h1>
+    <form method="post">
+      <input name="question" value="{{ question }}" placeholder="Ask about Apollo 11, Mars rovers, Webb, Artemis, Hubble, or RAG">
+      <button type="submit">Ask GPT</button>
+    </form>
+    <section>
+      <h2>Artifacts</h2>
+      <p>Chunks: <code>{{ chunks_file }}</code></p>
+      <p>Index: <code>{{ index_file }}</code></p>
+    </section>
+    {% if result %}
+    <section>
+      <h2>Answer</h2>
+      <p>{{ result.answer }}</p>
+    </section>
+    <section>
+      <h2>Pipeline Steps</h2>
+      <ol>
+        {% for step in result.steps %}
+        <li>{{ step }}</li>
+        {% endfor %}
+      </ol>
+    </section>
+    <section>
+      <h2>Retrieved Sources</h2>
+      {% for source in result.sources %}
+      <article>
+        <h3>{{ source.doc_id }} <span>score {{ source.score }}</span></h3>
+        <p>{{ source.text }}</p>
+      </article>
+      {% endfor %}
+    </section>
+    {% endif %}
+  </main>
+</body>
+</html>
