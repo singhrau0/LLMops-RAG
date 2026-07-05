@@ -7,6 +7,8 @@ RAW_FILE = Path("data/raw/space_kb.md")
 CLEAN_FILE = Path("data/clean/space_kb_clean.md")
 CHUNKS_FILE = Path("artifacts/chunks.json")
 PARAMS_FILE = Path("params.yaml")
+ARTIFACT_INDEX = Path("artifacts/index.json")
+
 
 # clean data 
 def read_text(path):
@@ -30,3 +32,9 @@ def write_json(path,data):
     path.parent.mkdir(parents = True,exist_ok = True)
     path.write_text(json.dumps(data,indent =2),encoding = "utf-8")
 
+def read_json(path):
+    return json.loads(path.read_text(encoding = "utf-8"))
+
+    
+def tokenize(text):
+    return re.findall(r"[a-z0-9]+",text.lower())
