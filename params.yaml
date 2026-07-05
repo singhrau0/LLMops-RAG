@@ -1,6 +1,6 @@
 chunking:
-  max_words:80
-  overlap_words:15
+  max_words: 80
+  overlap_words: 15
 retrieval:
   top_k: 2
 openai:

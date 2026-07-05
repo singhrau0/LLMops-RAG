@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "DOC_APOLLO_11_chunk_0",
+    "doc_id": "DOC_APOLLO_11",
+    "text": "Apollo 11 was the NASA mission that first landed humans on the Moon. The spacecraft launched on July 16, 1969, with astronauts Neil Armstrong, Buzz Aldrin, and Michael Collins. Armstrong and Aldrin landed the lunar module Eagle in the Sea of Tranquility on July 20, 1969. Armstrong became the first person to walk on the Moon, followed by Aldrin. Collins remained in lunar orbit aboard the command module Columbia. The mission returned lunar samples, demonstrated precision navigation, and proved that"
+  },
+  {
+    "chunk_id": "DOC_APOLLO_11_chunk_1",
+    "doc_id": "DOC_APOLLO_11",
+    "text": "the command module Columbia. The mission returned lunar samples, demonstrated precision navigation, and proved that humans could travel to another celestial body and return safely to Earth."
+  },
+  {
+    "chunk_id": "DOC_MARS_ROVERS_chunk_0",
+    "doc_id": "DOC_MARS_ROVERS",
+    "text": "Mars rovers are robotic vehicles designed to explore the surface of Mars. NASA rovers such as Sojourner, Spirit, Opportunity, Curiosity, and Perseverance have studied rocks, soil, weather, and signs of ancient habitability. Rovers are useful because they can travel across terrain, inspect many locations, and carry scientific instruments directly to targets of interest. Perseverance also collects rock cores for possible future return to Earth. Rover missions help scientists reconstruct the history of water on Mars and evaluate whether environments may"
+  },
+  {
+    "chunk_id": "DOC_MARS_ROVERS_chunk_1",
+    "doc_id": "DOC_MARS_ROVERS",
+    "text": "missions help scientists reconstruct the history of water on Mars and evaluate whether environments may once have supported microbial life."
+  },
+  {
+    "chunk_id": "DOC_JAMES_WEBB_chunk_0",
+    "doc_id": "DOC_JAMES_WEBB",
+    "text": "The James Webb Space Telescope is a large infrared observatory operated by NASA, ESA, and CSA. It launched in 2021 and observes the universe from near the second Sun-Earth Lagrange point. Webb studies early galaxies, star formation, exoplanet atmospheres, and objects hidden by dust. Infrared light helps Webb see distant galaxies whose light has been stretched by the expansion of the universe. Its segmented gold-coated mirror and sunshield allow sensitive observations of faint, cold, and distant astronomical targets."
+  },
+  {
+    "chunk_id": "DOC_ARTEMIS_chunk_0",
+    "doc_id": "DOC_ARTEMIS",
+    "text": "Artemis is NASA's program to return humans to the Moon and prepare for future crewed missions to Mars. The program uses the Space Launch System rocket, Orion spacecraft, lunar Gateway plans, modern spacesuits, and commercial lunar landers. Artemis aims to place astronauts near the lunar south pole, where permanently shadowed regions may contain water ice. The program emphasizes sustainable exploration, international partnerships, science, and technology demonstrations needed for deeper space missions."
+  },
+  {
+    "chunk_id": "DOC_HUBBLE_chunk_0",
+    "doc_id": "DOC_HUBBLE",
+    "text": "The Hubble Space Telescope is an optical and ultraviolet space telescope launched in 1990. It orbits Earth above most of the atmosphere, giving it a clearer view than ground-based telescopes at many wavelengths. Hubble has measured the expansion rate of the universe, photographed galaxies, observed nebulae, and studied planets in the Solar System. Servicing missions by astronauts repaired and upgraded Hubble, extending its scientific life and making it one of the most productive observatories in history."
+  },
+  {
+    "chunk_id": "DOC_RAG_LLMOPS_chunk_0",
+    "doc_id": "DOC_RAG_LLMOPS",
+    "text": "Retrieval Augmented Generation, or RAG, combines document retrieval with text generation. A retriever finds relevant chunks from a knowledge base, and a language model uses those chunks as context when answering a question. In LLMOps, teams evaluate RAG systems by measuring retrieval quality, answer quality, latency, cost, and groundedness. A champion model is the currently approved production configuration. A challenger model is a new candidate tested against the champion. Promotion happens only when evaluation metrics show the challenger is better"
+  },
+  {
+    "chunk_id": "DOC_RAG_LLMOPS_chunk_1",
+    "doc_id": "DOC_RAG_LLMOPS",
+    "text": "tested against the champion. Promotion happens only when evaluation metrics show the challenger is better enough to justify replacing the current champion."
+  }
+]

@@ -6,6 +6,7 @@ import yaml
 RAW_FILE = Path("data/raw/space_kb.md")
 CLEAN_FILE = Path("data/clean/space_kb_clean.md")
 CHUNKS_FILE = Path("artifacts/chunks.json")
+PARAMS_FILE = Path("params.yaml")
 
 # clean data 
 def read_text(path):
@@ -23,4 +24,9 @@ def write_text(path,text):
 
 # preprocess data
 def load_params():
-    return yaml.safe_load(PARAMS_FILE.read_)
+    return yaml.safe_load(PARAMS_FILE.read_text(encoding="utf-8"))
+
+def write_json(path,data):
+    path.parent.mkdir(parents = True,exist_ok = True)
+    path.write_text(json.dumps(data,indent =2),encoding = "utf-8")
+
