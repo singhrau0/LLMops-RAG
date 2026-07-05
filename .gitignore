@@ -1,0 +1,13 @@
+.dvc/tmp/
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+artifacts/
+data/processed/
+mlruns/
+mlflow.db
+mlflow.db-*
+reports/
+*.egg-info/
