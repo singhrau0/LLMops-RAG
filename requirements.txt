@@ -1,0 +1,6 @@
+Flask==3.0.3
+langchain>=0.3.27
+langchain-openai>=0.3.28
+python-dotenv>=1.0.1
+dvc>=3.67.1
+pyYAML==6.0.2
